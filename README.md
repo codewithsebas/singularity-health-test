@@ -10,6 +10,19 @@ To run the project on your local machine follow the steps below, I hope you like
 
 Link Deploy: [https://singularity-health-test.vercel.app/](https://singularity-health-test.vercel.app/)
 
+In order to log in use the following credentials:
+
+Email:
+```
+eve.holt@reqres.in
+```
+Password:
+
+```
+pistol
+```
+With these credentials you will be able to test the login, if the credentials are correct you will be redirected to the Home page, if not you will get an error message.
+
 ## First steps
 
 ## Clone repository
