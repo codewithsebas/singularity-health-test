@@ -2,11 +2,13 @@
 
 This project consists of the development of a frontend web application following the specifications provided by Singularity Health.
 
-The application is based on an Adobe XD design and has three main views, each with specific functionalities that ensure an intuitive user experience and properly handle errors and interactions.
+The application is based on an Adobe XD design and has three main views, each with specific functionalities that ensure an intuitive user experience and properly manage errors and interactions.
 
-## Deploy
+To run the project on your local machine follow the steps below, I hope you like it!
 
-Link Deploy: [https://singularity-health-test.vercel.app/login](https://singularity-health-test.vercel.app/login)
+### Deploy
+
+Link Deploy: [https://singularity-health-test.vercel.app/](https://singularity-health-test.vercel.app/)
 
 ## First steps
 
