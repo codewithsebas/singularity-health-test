@@ -12,7 +12,7 @@ export default function ServicesSection() {
         width={1000}
         height={1000}
       />
-      <div className="relative z-20 mx-auto flex w-full max-w-6xl flex-col items-center justify-center gap-8 px-5 sm:min-h-screen sm:flex-row sm:items-center sm:justify-between md:px-20">
+      <div className="relative z-20 pt-16 mx-auto flex w-full max-w-6xl flex-col items-center justify-center gap-8 px-5 sm:min-h-screen sm:flex-row sm:items-center sm:justify-between md:px-20">
         <div className="mb-32 flex flex-col items-center gap-5 text-center text-coral sm:items-start sm:text-left">
           <h1 className="mb-2 text-4xl font-semibold sm:text-5xl">
             Our Services

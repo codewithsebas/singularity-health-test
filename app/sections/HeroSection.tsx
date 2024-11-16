@@ -21,7 +21,7 @@ export default function HeroSection() {
             <br className="hidden sm:block" /> partner in keeping pets healthy
             and happy!
           </p>
-          <div className="flex flex-col items-center gap-3 sm:flex-row">
+          <div className="flex flex-col-reverse items-center gap-3 sm:flex-row">
             <button className="rounded-full bg-blue px-6 py-3 text-sm shadow-lg shadow-blue/15 duration-200 hover:bg-blue/85">
               Schedule Service
             </button>

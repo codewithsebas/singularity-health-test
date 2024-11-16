@@ -4,7 +4,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="relative mt-10 flex h-full min-h-80 w-full items-end">
+    <footer className="relative mt-10 flex flex-col h-full min-h-80 w-full">
       <Image
         src="/Footer.svg"
         alt="Background Footer"
@@ -125,7 +125,7 @@ const Footer = () => {
           </nav>
         </section>
 
-        <section aria-labelledby="footer-newsletter">
+        <section aria-labelledby="footer-newsletter" className='hidden sm:block'>
           <h2
             id="footer-newsletter"
             className="mb-4 text-lg font-bold text-gold"
@@ -158,6 +158,39 @@ const Footer = () => {
           </form>
         </section>
       </div>
+
+      <section aria-labelledby="footer-newsletter" className='flex flex-col sm:hidden relative z-20 mb-5 px-5 sm:px-0 '>
+          <h2
+            id="footer-newsletter"
+            className="mb-4 text-lg font-bold text-gold"
+          >
+            Newsletter
+          </h2>
+          <p className="mb-4 font-light text-white">
+            Sign up to receive the Fetch! Family Newsletter
+          </p>
+          <form
+            className="flex justify-between gap-1 rounded-full bg-white p-1"
+            aria-label="Newsletter Signup"
+          >
+            <label htmlFor="newsletter-email" className="sr-only">
+              Email Address
+            </label>
+            <input
+              id="newsletter-email"
+              type="email"
+              placeholder="Email Address"
+              className="w-full bg-transparent ps-3 text-gray outline-none"
+            />
+            <button
+              type="submit"
+              className="flex h-10 min-w-10 items-center justify-center rounded-full bg-coral text-white"
+              aria-label="Submit Email"
+            >
+              <MoveRight />
+            </button>
+          </form>
+        </section>
     </footer>
   );
 };
