@@ -16,7 +16,7 @@ export default function HeroSection() {
           <h1 className="mb-2 text-4xl font-semibold sm:text-5xl">
             We Get Pet Care!
           </h1>
-          <p className="text-base font-light sm:text-lg">
+          <p className="text-base sm:text-lg">
             For over 17 Years, Fetch! Pet Care has been a trusted{' '}
             <br className="hidden sm:block" /> partner in keeping pets healthy
             and happy!
@@ -25,7 +25,7 @@ export default function HeroSection() {
             <button className="rounded-full bg-blue px-6 py-3 text-sm shadow-lg shadow-blue/15 duration-200 hover:bg-blue/85">
               Schedule Service
             </button>
-            <Link href="#" className="mt-2 font-light hover:underline sm:mt-0">
+            <Link href="#" className="mt-2 hover:underline sm:mt-0">
               Or Call 866.338.2463
             </Link>
           </div>

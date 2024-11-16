@@ -12,7 +12,7 @@ export default function ServicesSection() {
         width={1000}
         height={1000}
       />
-      <div className="relative z-20 pt-16 mx-auto flex w-full max-w-6xl flex-col items-center justify-center gap-8 px-5 sm:min-h-screen sm:flex-row sm:items-center sm:justify-between md:px-20">
+      <div className="relative z-20 mx-auto flex w-full max-w-6xl flex-col items-center justify-center gap-8 px-5 pt-16 sm:min-h-screen sm:flex-row sm:items-center sm:justify-between md:px-20">
         <div className="mb-32 flex flex-col items-center gap-5 text-center text-coral sm:items-start sm:text-left">
           <h1 className="mb-2 text-4xl font-semibold sm:text-5xl">
             Our Services
@@ -62,29 +62,29 @@ export default function ServicesSection() {
           <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded-lg bg-white shadow-lg duration-200 hover:scale-105 sm:h-44 sm:w-44 xl:h-48 xl:w-48">
             <Image
               src="/items/cat.svg"
-              alt="Dog Walking"
+              alt="Pet Sitting"
               width={50}
               height={50}
             />
-            <p className="font-medium text-gray">Dog Walking</p>
+            <p className="font-medium text-gray">Pet Sitting</p>
           </div>
           <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded-lg bg-white shadow-lg duration-200 hover:scale-105 sm:h-44 sm:w-44 xl:h-48 xl:w-48">
             <Image
               src="/items/home.svg"
-              alt="Dog Walking"
+              alt="Overnight Care"
               width={50}
               height={50}
             />
-            <p className="font-medium text-gray">Dog Walking</p>
+            <p className="font-medium text-gray">Overnight Care</p>
           </div>
           <div className="flex h-36 w-36 flex-col items-center justify-center gap-3 rounded-lg bg-white shadow-lg duration-200 hover:scale-105 sm:h-44 sm:w-44 xl:h-48 xl:w-48">
             <Image
               src="/items/paw.svg"
-              alt="Dog Walking"
+              alt="Other Services"
               width={50}
               height={50}
             />
-            <p className="font-medium text-gray">Dog Walking</p>
+            <p className="font-medium text-gray">Other Services</p>
           </div>
         </div>
       </div>

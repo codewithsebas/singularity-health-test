@@ -7,19 +7,17 @@ import React, { useState } from 'react';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   const ListNav = [
-    { title: 'Location', href: '#' },
-    { title: 'Blog', href: '#' },
-    { title: 'Services', href: '#' },
-    { title: 'About Us', href: '#' },
-    { title: 'Franchise with Us', href: '#' },
+    { title: 'Ubicación', href: '/ubication' },
+    { title: 'Noticias', href: '/news' },
+    { title: 'Servicios', href: '/services' },
+    { title: 'Sobre Nosotros', href: '/about' },
+    { title: 'Franquicia con Nosotros', href: '/franchise' },
   ];
 
   return (
     <header className="absolute left-0 right-0 top-0 z-30 w-full bg-transparent">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:py-5">
-        {/* Logo */}
         <div className="flex items-center">
           <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white">
             <Image src="/pet.svg" alt="Logo" width={30} height={30} />

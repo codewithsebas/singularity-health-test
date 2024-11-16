@@ -8,22 +8,22 @@ export default function WorksSection() {
         <Image
           src="/Circle.svg"
           alt="Background Banner"
-          className="absolute -right-80 top-96 object-cover md:-right-96 md:top-20 2xl:top-56"
+          className="absolute -right-[17rem] top-[25rem] object-cover md:-right-96 md:top-20 2xl:top-56"
           width={700}
           height={700}
         />
         <Image
           src="/Circle.svg"
           alt="Background Banner"
-          className="absolute -left-36 top-[48rem] object-cover md:top-[38rem]"
+          className="absolute -left-44 top-[48rem] object-cover md:top-[38rem]"
           width={200}
           height={200}
         />
       </div>
 
-      <div className="relative z-20 mx-auto flex w-full max-w-6xl flex-col items-center justify-center gap-8 px-5 sm:min-h-screen sm:flex-row sm:items-center sm:justify-between md:px-24">
-        <div className="relative mb-9 mt-10 grid grid-cols-2 gap-10 sm:mr-10 sm:mt-0">
-          <div className="absolute bottom-0 top-0 z-0 m-auto h-80 w-80 rounded-r-full border-4 border-l-0 border-dashed border-coral"></div>
+      <div className="relative z-20 mx-auto flex w-full max-w-6xl flex-col items-center justify-center gap-8 sm:min-h-screen sm:flex-row sm:items-center sm:justify-between md:px-24">
+        <div className="relative mb-9 grid grid-cols-1 gap-10 sm:mr-10 sm:grid-cols-2">
+          <div className="absolute left-20 top-32 z-0 h-40 w-40 rounded-r-full border-4 border-l-0 border-dashed border-coral sm:bottom-0 sm:left-0 sm:top-0 sm:m-auto sm:h-80 sm:w-80"></div>
 
           <div className="z-10 flex h-40 w-40 flex-col items-center justify-center gap-3 rounded-lg bg-white shadow-lg duration-200 hover:scale-105">
             <Image
@@ -34,7 +34,7 @@ export default function WorksSection() {
             />
             <p className="font-medium text-gray">Reserve</p>
           </div>
-          <div className="z-10 mt-44 flex h-40 w-40 flex-col items-center justify-center gap-3 rounded-lg bg-white shadow-lg duration-200 hover:scale-105">
+          <div className="z-10 flex h-40 w-40 flex-col items-center justify-center gap-3 rounded-lg bg-white shadow-lg duration-200 hover:scale-105 sm:mt-44">
             <Image src="/items/match.svg" alt="Match" width={50} height={50} />
             <p className="font-medium text-gray">Match</p>
           </div>
@@ -44,7 +44,7 @@ export default function WorksSection() {
           </div>
         </div>
 
-        <div className="mb-32 flex flex-col items-center gap-5 text-center text-coral sm:items-start sm:text-left">
+        <div className="mb-32 flex w-full flex-col items-center gap-5 text-center text-coral sm:items-start sm:text-left">
           <h1 className="mb-2 text-4xl font-semibold sm:text-5xl">
             How it Works
           </h1>
@@ -81,7 +81,7 @@ export default function WorksSection() {
         </div>
       </div>
 
-      <div className="relative m-auto h-full w-full max-w-4xl overflow-hidden rounded-lg bg-blue/90 md:mt-32 xl:mt-10">
+      <div className="relative m-auto h-full w-full max-w-4xl overflow-hidden rounded-xl bg-blue/90 md:mt-32 xl:mt-10">
         <div className="relative flex h-full w-full flex-col md:flex-row">
           <div className="absolute h-96 w-96 rounded-full bg-gradient-to-r from-blue/50 to-transparent"></div>
           <div className="absolute left-[10rem] h-96 w-96 rounded-full bg-gradient-to-r from-blue/60 to-transparent"></div>
