@@ -23,7 +23,7 @@ const Input = ({
         type={type}
         value={value}
         onChange={onChange}
-        className="focus:shadow-outline w-full appearance-none p-4 text-sm leading-tight text-gray-700 shadow-md focus:outline-none"
+        className="focus:shadow-outline text-gray-700 w-full appearance-none p-4 text-sm leading-tight shadow-md focus:outline-none"
         placeholder={placeholder}
         aria-describedby={ariaDescribedBy}
       />
