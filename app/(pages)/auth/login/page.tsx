@@ -78,7 +78,10 @@ export default function LoginPage() {
 
             {error && <p className="text-start text-coral">{error}</p>}
 
-            <Link href="/recovery-password" className="mt-5 w-fit text-end text-sm text-gray">
+            <Link
+              href="/recovery-password"
+              className="mt-5 w-fit text-end text-sm text-gray"
+            >
               ¿Olvidaste tu contraseña?
             </Link>
           </fieldset>

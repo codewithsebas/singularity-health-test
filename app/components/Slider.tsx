@@ -70,7 +70,7 @@ const Slider = () => {
       <div className="overflow-hidden">
         <div className="relative my-16 mt-12 flex w-full max-w-6xl flex-col items-center justify-between gap-10 sm:flex-row sm:gap-3">
           <button
-            className="absolute shadow-md left-5 right-0 top-1/2 z-30 flex max-h-10 min-h-10 min-w-10 max-w-10 -translate-y-1/2 transform items-center justify-center rounded-full bg-coral text-white transition-transform duration-200 hover:bg-coral/90 sm:static"
+            className="absolute left-5 right-0 top-1/2 z-30 flex max-h-10 min-h-10 min-w-10 max-w-10 -translate-y-1/2 transform items-center justify-center rounded-full bg-coral text-white shadow-md transition-transform duration-200 hover:bg-coral/90 sm:static"
             onClick={prevSlide}
           >
             <MoveLeft size={18} />
@@ -106,7 +106,7 @@ const Slider = () => {
           </div>
 
           <button
-            className="absolute shadow-md right-5 top-1/2 z-30 flex min-h-10 min-w-10 -translate-y-1/2 transform items-center justify-center rounded-full bg-coral text-white transition-transform duration-200 hover:bg-coral/90 sm:static"
+            className="absolute right-5 top-1/2 z-30 flex min-h-10 min-w-10 -translate-y-1/2 transform items-center justify-center rounded-full bg-coral text-white shadow-md transition-transform duration-200 hover:bg-coral/90 sm:static"
             onClick={nextSlide}
           >
             <MoveRight size={18} />

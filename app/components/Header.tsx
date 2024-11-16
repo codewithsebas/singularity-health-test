@@ -30,7 +30,7 @@ const Header = () => {
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           aria-label="Toggle navigation menu"
         >
-          {isMobileMenuOpen ? (<X size={30} />) : (<AlignRight size={30} />)}
+          {isMobileMenuOpen ? <X size={30} /> : <AlignRight size={30} />}
         </button>
 
         <nav

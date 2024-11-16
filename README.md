@@ -6,21 +6,24 @@ The application is based on an Adobe XD design and has three main views, each wi
 
 To run the project on your local machine follow the steps below, I hope you like it!
 
-### Deploy
+### Deployment
 
 Link Deploy: [https://singularity-health-test.vercel.app/](https://singularity-health-test.vercel.app/)
 
 In order to log in use the following credentials:
 
 Email:
+
 ```
 eve.holt@reqres.in
 ```
+
 Password:
 
 ```
 pistol
 ```
+
 With these credentials you will be able to test the login, if the credentials are correct you will be redirected to the Home page, if not you will get an error message.
 
 ## First steps
@@ -40,6 +43,14 @@ Create a `.env.local` file and define the environment variables.
 
 ```bash
 NEXT_PUBLIC_API_BASE_URL=https://reqres.in/api
+```
+
+## Install project dependencies
+
+Execute the following command
+
+```bash
+npm install
 ```
 
 ## You can now run the project
@@ -69,4 +80,3 @@ API reqres : [https://reqres.in/](https://reqres.in/)
 ## Design
 
 Adobe XD : [https://helpx.adobe.com/co/xd/user-guide.html](https://helpx.adobe.com/co/xd/user-guide.html)
-
