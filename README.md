@@ -52,3 +52,8 @@ Tailwindcss Documentation: [https://tailwindcss.com/docs](https://tailwindcss.co
 Lucide icons: [https://lucide.dev/guide/](https://lucide.dev/guide/)
 
 API reqres : [https://reqres.in/](https://reqres.in/)
+
+## Design
+
+Adobe XD : [https://helpx.adobe.com/co/xd/user-guide.html](https://helpx.adobe.com/co/xd/user-guide.html)
+
