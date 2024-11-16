@@ -1,6 +1,6 @@
 'use client';
 
-import { AlignRight } from 'lucide-react';
+import { AlignRight, X } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
@@ -8,11 +8,12 @@ import React, { useState } from 'react';
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const ListNav = [
-    { title: 'Ubicación', href: '/ubication' },
-    { title: 'Noticias', href: '/news' },
-    { title: 'Servicios', href: '/services' },
-    { title: 'Sobre Nosotros', href: '/about' },
-    { title: 'Franquicia con Nosotros', href: '/franchise' },
+    { title: 'Location', href: '/ubication' },
+    { title: 'Blog', href: '/news' },
+    { title: 'Services', href: '/services' },
+    { title: 'About Us', href: '/about' },
+    { title: 'Franchise with Us', href: '/franchise' },
+    { title: 'Log In', href: '/auth/login' },
   ];
 
   return (
@@ -29,7 +30,7 @@ const Header = () => {
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           aria-label="Toggle navigation menu"
         >
-          <AlignRight size={30} />
+          {isMobileMenuOpen ? (<X size={30} />) : (<AlignRight size={30} />)}
         </button>
 
         <nav

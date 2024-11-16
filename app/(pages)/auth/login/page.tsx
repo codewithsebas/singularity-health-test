@@ -78,7 +78,7 @@ export default function LoginPage() {
 
             {error && <p className="text-start text-coral">{error}</p>}
 
-            <Link href="#" className="mt-5 w-fit text-end text-sm text-gray">
+            <Link href="/recovery-password" className="mt-5 w-fit text-end text-sm text-gray">
               ¿Olvidaste tu contraseña?
             </Link>
           </fieldset>
@@ -95,7 +95,7 @@ export default function LoginPage() {
             <div className="text-center text-sm uppercase">
               <span className="text-gray">
                 Aún no tengo cuenta{' '}
-                <Link href="#" className="text-blue">
+                <Link href="/auth/register" className="text-blue">
                   Registrarse
                 </Link>
               </span>
