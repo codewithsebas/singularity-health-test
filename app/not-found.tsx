@@ -21,15 +21,15 @@ export default function NotFoundPage() {
         <h1 className="mb-4 text-5xl font-bold md:text-7xl md:text-white">
           404
         </h1>
-        <p className="md:text-gray-200 px-3 text-center text-lg md:text-xl">
+        <p className="px-3 text-center text-lg text-gray md:text-xl md:text-white">
           Lo sentimos, la página que buscas no existe o ha sido movida.
         </p>
 
         <Link
-          href="/home"
-          className="hover:bg-gray-50 md:text-gray-700 mt-10 flex items-center gap-3 rounded-full bg-red-500 p-3 px-5 font-semibold text-white md:bg-white md:p-3 md:px-6"
+          href="/"
+          className="mt-10 flex items-center gap-3 rounded-full bg-coral p-3 px-5 font-semibold text-white hover:bg-gray md:bg-white md:p-3 md:px-6 md:text-coral md:hover:bg-white/95"
         >
-          <Undo2 className="md:text-gray-800" /> Regresar al inicio
+          <Undo2 className="text-white md:text-coral" /> Regresar al inicio
         </Link>
       </div>
     </div>

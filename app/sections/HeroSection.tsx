@@ -11,7 +11,7 @@ export default function HeroSection() {
         width={1000}
         height={1000}
       />
-      <div className="relative z-20 mx-auto flex min-h-screen w-full max-w-6xl flex-col items-center justify-center gap-8 px-5 sm:flex-row sm:items-center sm:justify-between md:px-0">
+      <div className="relative z-20 mx-auto flex min-h-screen w-full max-w-6xl flex-col items-center justify-center gap-8 px-5 pt-28 sm:flex-row sm:items-center sm:justify-between md:px-0">
         <div className="flex flex-col items-center gap-5 text-center text-white sm:items-start sm:text-left">
           <h1 className="mb-2 text-4xl font-semibold sm:text-5xl">
             We Get Pet Care!

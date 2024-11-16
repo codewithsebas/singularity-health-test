@@ -40,16 +40,16 @@ export default function LoginPage() {
           aria-labelledby="login-form"
         >
           <header className="mb-3 flex items-center gap-4">
-            <span className="h-8 w-1.5 bg-red-400"></span>
+            <span className="h-8 w-1.5 bg-coral"></span>
             <h2
               id="login-form"
-              className="text-gray-600 text-xl font-semibold uppercase"
+              className="text-xl font-semibold uppercase text-gray"
             >
               Bienvenido
             </h2>
           </header>
 
-          <fieldset className="flex flex-col gap-2">
+          <fieldset className="flex flex-col items-end gap-2">
             <Input
               type="email"
               value={email}
@@ -76,9 +76,9 @@ export default function LoginPage() {
               }
             />
 
-            {error && <p className="text-start text-red-400">{error}</p>}
+            {error && <p className="text-start text-coral">{error}</p>}
 
-            <Link href="#" className="text-gray-500 mt-5 text-end text-sm">
+            <Link href="#" className="mt-5 w-fit text-end text-sm text-gray">
               ¿Olvidaste tu contraseña?
             </Link>
           </fieldset>
@@ -87,15 +87,15 @@ export default function LoginPage() {
             <button
               type="submit"
               disabled={!formValid}
-              className={`focus:shadow-outline bg-blue-600 shadow-blue-300 hover:bg-blue-700 flex w-44 items-center justify-center rounded-full p-4 px-8 text-sm font-medium uppercase text-white shadow-xl duration-200 focus:outline-none ${!formValid ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'}`}
+              className={`focus:shadow-outline hover:bg-blue-700 flex w-44 items-center justify-center rounded-full bg-blue p-4 px-8 text-sm font-medium uppercase text-white shadow-xl shadow-blue/40 duration-200 focus:outline-none ${!formValid ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'}`}
             >
               {loading ? <LoadingSpinner /> : 'Iniciar sesión'}
             </button>
 
             <div className="text-center text-sm uppercase">
-              <span className="text-gray-400">
+              <span className="text-gray">
                 Aún no tengo cuenta{' '}
-                <Link href="#" className="text-blue-950">
+                <Link href="#" className="text-blue">
                   Registrarse
                 </Link>
               </span>

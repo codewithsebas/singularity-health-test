@@ -39,7 +39,7 @@ export default function useLoginForm() {
 
       if (data?.token) {
         localStorage.setItem('authToken', data.token);
-        router.push('/home');
+        router.push('/');
       }
     } catch {
       setError('Credenciales de login inválidas');
