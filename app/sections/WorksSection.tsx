@@ -44,7 +44,7 @@ export default function WorksSection() {
           </div>
         </div>
 
-        <div className="mb-32 flex w-full flex-col items-center gap-5 text-center text-coral sm:items-start sm:text-left">
+        <div className="mb-32 flex flex-col items-center gap-5 text-center text-coral sm:items-start sm:text-left">
           <h1 className="mb-2 text-4xl font-semibold sm:text-5xl">
             How it Works
           </h1>
