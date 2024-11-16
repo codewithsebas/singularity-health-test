@@ -33,7 +33,7 @@ export default function HeroSection() {
 
         <div className="mt-10 h-80 w-80 rounded-full sm:mr-10 sm:mt-0 xl:h-96 xl:w-96">
           <Image
-            src="/banner/dog_golden.png"
+            src="/banner/dog_golden.svg"
             alt="Dog"
             className="h-full w-full object-contain"
             width={300}

@@ -94,7 +94,7 @@ export default function WorksSection() {
 
         <div className="relative z-20 flex h-full flex-col items-center justify-start gap-10 p-5 md:flex-row">
           <Image
-            src="/Dog.png"
+            src="/Dog.svg"
             alt="Background Banner"
             className="object-cover"
             width={220}

@@ -7,35 +7,35 @@ import Image from 'next/image';
 const slides = [
   {
     id: 1,
-    image: '/user.webp',
+    image: '/user.svg',
     name: 'Kenned Dsouza',
     testimonial:
       'I like that I got to meet the dog Walker who is walking my dog daily and consult with her. I also appreciate the daily communication I get about the dog and how my dog is doing',
   },
   {
     id: 2,
-    image: '/user.webp',
+    image: '/user.svg',
     name: 'John Doe',
     testimonial:
       'I like that I got to meet the dog Walker who is walking my dog daily and consult with her. I also appreciate the daily communication I get about the dog and how my dog is doing',
   },
   {
     id: 3,
-    image: '/user.webp',
+    image: '/user.svg',
     name: 'Jane Smith',
     testimonial:
       'I like that I got to meet the dog Walker who is walking my dog daily and consult with her. I also appreciate the daily communication I get about the dog and how my dog is doing',
   },
   {
     id: 4,
-    image: '/user.webp',
+    image: '/user.svg',
     name: 'Alice Brown',
     testimonial:
       'I like that I got to meet the dog Walker who is walking my dog daily and consult with her. I also appreciate the daily communication I get about the dog and how my dog is doing',
   },
   {
     id: 5,
-    image: '/user.webp',
+    image: '/user.svg',
     name: 'Michael Johnson',
     testimonial:
       'I like that I got to meet the dog Walker who is walking my dog daily and consult with her. I also appreciate the daily communication I get about the dog and how my dog is doing',
@@ -94,7 +94,7 @@ const Slider = () => {
                   <Image
                     src={slide.image}
                     alt={`Image of ${slide.name}`}
-                    className="h-16 w-16 rounded-full"
+                    className="h-16 w-16 rounded-full object-cover"
                     width={50}
                     height={50}
                   />
